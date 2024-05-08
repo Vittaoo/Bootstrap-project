@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+#cabecalho{
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.cards-buttons{
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 15px;
+    background-color: #f15025;
+    color: #fff; 
+    font-style: italic;
+    font-weight: bold;
+}
+
+.section-instruments{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f15025;
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.nav-link.nav-buttons.active{
+    background-color: #f15025;
+    color: #fff;
+}
+
+.nav-buttons{
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.nav-buttons:hover{
+    color: #f15025;
+}
+
+.nav-link.nav-buttons.active:hover{
+    background-color: #191919;
+    color: #fff;
+}
+
+.card{
+    transition: 0.3s;
+}
+
+.card:hover{
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+
+.name-logo{
+    display: flex;
+    align-items: center;
+}
+
+.material-symbols-outlined{
+    color: #f15025;
+}
+
+
+#form-button {
+    background-color: #f15025;
+    border-radius: 25px;
+    color: #fff;
+    font-style: italic;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#form-button:hover{
+    opacity: 0.7;
+}
